@@ -1,0 +1,3 @@
+24 saatlik ( sütunluk) bir tablomuz var. İlk sütunda "g" bilgisi var. Belirli adet boşuk bırakılıp, tekrar "g" bilgisi ilgili sütuna yazılıyor. 
+Bu iş rutin olarak devam ediyor. Elimizde ilk 12 saatlik ( sütunluk) bilgi var. Buna bakarak kalan sütunların datasını bizim tahmin etmemiz bekleniyor. 
+Aşağıdaki resim üzerinden de açıklamaya çalıştım. 
