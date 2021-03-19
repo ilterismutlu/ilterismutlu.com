@@ -1,0 +1,13 @@
+SELECT    '<table border="1">' FROM dual UNION ALL 
+SELECT    '<thead> <tr>' FROM dual UNION ALL 
+(SELECT       '<th>'||LISTAGG(column_name, '</th><th>') WITHIN GROUP (ORDER BY column_id) ||'</th>' Sutun_basliklari
+  FROM user_tab_columns 
+ WHERE table_name = 'DB_TABLE' 
+) UNION ALL 
+select    '</tr></thead>' FROM dual UNION ALL 
+select    '<tbody>' FROM dual UNION ALL 
+(SELECT      '<tr> <td>'||col_1||'</td> <td>'||col_2||'</td> <td><a href="'||col_3||'" target="_blank" rel="noopener noreferrer">'||col_2||'</a></td> </tr>' 
+   FROM db_table)
+UNION ALL 
+SELECT    '</tbody>' FROM dual UNION ALL 
+SELECT    '</table>' FROM dual 

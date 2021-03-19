@@ -1,0 +1,2 @@
+--border icin CSS'e gerek yok. table tag'inda border="1" kullanilabilir. 
+--You don't have to use CSS for borders. You can use border="1" in table tag.

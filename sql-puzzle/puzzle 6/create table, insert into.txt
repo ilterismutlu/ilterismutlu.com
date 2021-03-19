@@ -1,0 +1,10 @@
+CREATE TABLE db_table
+(
+    col_1 NUMBER(1),
+    col_2 VARCHAR2(100 CHAR),
+    col_3 VARCHAR2(250 CHAR)
+);
+
+insert into db_table values ( 1,'ilterismutlu','http://www.ilterismutlu.com/');
+insert into db_table values ( 2,'google','https://www.google.com.tr/');
+commit;
