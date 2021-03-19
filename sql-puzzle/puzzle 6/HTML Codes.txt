@@ -1,0 +1,23 @@
+Compact HTML table:
+
+<table border="1"><thead><tr><th>COL1</th><th>COL2</th></tr></thead><tbody><tr><td>1</td><td><a href="http://www.ilterismutlu.com/" target="_blank" rel="noopener noreferrer">ilterismutlu</a></td></tr><tr><td>2</td><td><a href="https://www.google.com.tr/" target="_blank" rel="noopener noreferrer">google</a></td></tr></tbody></table>
+
+Formatted HTML table:
+<table border="1">
+<thead>
+  <tr>
+    <th>COL1</th>
+    <th>COL2</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>1</td>
+    <td><a href="http://www.ilterismutlu.com/" target="_blank" rel="noopener noreferrer">ilterismutlu</a></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td><a href="https://www.google.com.tr/" target="_blank" rel="noopener noreferrer">google</a></td>
+  </tr>
+</tbody>
+</table>
