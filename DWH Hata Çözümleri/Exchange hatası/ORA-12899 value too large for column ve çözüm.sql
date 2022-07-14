@@ -9,14 +9,14 @@ SELECT '30 karakterlik string ifademiz' AS clmn
 --ORA-12899: value too large for column "C##USER2"."TBL_TEST"."CLMN" (actual: 30, maximum: 20)
 
 
---çözüm 1: (final tablo ise)
+--çözüm 1: (alan varchar ise)
 INSERT INTO tbl_test 
 SELECT SUBSTR('30 karakterlik string ifademiz',1,20) AS clmn
   FROM dual;
 --1 row inserted.  
 ROLLBACK;
 
---çözüm 2: (ara tablo ise)
+--çözüm 2: 
 ALTER TABLE tbl_test MODIFY clmn varchar2(30);
 --Table altered
 
